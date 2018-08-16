@@ -1,0 +1,229 @@
+Clonar repositorio, subir cambio:
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        vive el cambio.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git add .
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   vive el cambio.png
+
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git commint -m "Imagen de estudiante 2"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git commit -m "Imagen de estudiante 2"
+[master 1011ac5] Imagen de estudiante 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 vive el cambio.png
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.60 MiB | 1.00 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/estefahiguita22/Practica1.git
+   359a837..1011ac5  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$
+
+
+------------------------------------------------------------*****------------------------
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        vive el cambio.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git add .
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   vive el cambio.png
+
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git commint -m "Imagen de estudiante 2"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git commit -m "Imagen de estudiante 2"
+[master 1011ac5] Imagen de estudiante 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 vive el cambio.png
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.60 MiB | 1.00 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/estefahiguita22/Practica1.git
+   359a837..1011ac5  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ ^C
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ clear
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (master)
+$ git checkout -b Release
+Switched to a new branch 'Release'
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git status
+On branch Release
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   PRUEBA.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        NuevoArchivo_Estudiante2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git add .
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git status
+On branch Release
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   NuevoArchivo_Estudiante2.txt
+        modified:   PRUEBA.txt
+
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git commit -m "Commit de estudiante 2 en nueva rama"
+[Release 12bb5c1] Commit de estudiante 2 en nueva rama
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 NuevoArchivo_Estudiante2.txt
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ gut push origin Release
+bash: gut: command not found
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git push origin Release
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (10/10), 1.60 MiB | 915.00 KiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/estefahiguita22/Practica1.git
+ * [new branch]      Release -> Release
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git status
+On branch Release
+nothing to commit, working tree clean
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git status
+On branch Release
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   PRUEBA.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git add .
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git commit -m "Cambios de estudiante 3"
+[Release 03edc09] Cambios de estudiante 3
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git push origin Release
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 296.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/estefahiguita22/Practica1.git
+   12bb5c1..03edc09  Release -> Release
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+$ git status
+On branch Release
+nothing to commit, working tree clean
+
+Personal@DESKTOP-0QHU7K6 MINGW64 ~/Desktop/Practica1 (Release)
+
